@@ -30,6 +30,6 @@ jobs:
           author_name: Grant Steinfeld
           author_email: grant.steinfeld.tech@gmail.com
           message: "Auto updating my dash"
-          add: "*.md"
+          add: "*.png"
         env:
          GITHUB_TOKEN: ${{secrets.GH_WEATHER_DASH2 }} 
