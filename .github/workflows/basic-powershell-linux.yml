@@ -32,4 +32,4 @@ jobs:
           message: "Auto updating my dash"
           add: "*.md"
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_WEATHER_DASH }} 
+                GITHUB_TOKEN: ${{ weather.secrets.GH_WEATHER_DASH }} 
