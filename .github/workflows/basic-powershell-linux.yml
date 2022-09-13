@@ -22,7 +22,9 @@ jobs:
 
           #python CreateGraph.py
           #python try.py
-          python try2.py
+          #python try2.py
+          python try3.py
+
 
           #.\ThePoshWay.ps1
       - name: Commit changes
