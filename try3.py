@@ -12,10 +12,11 @@ plt.suptitle('run on: ' + date)
 arr = df.to_numpy()
 
 #x = [0.00001,0.001,0.01,0.1,0.5,1,5]
-x=arr[0][0]
+arrList = arr.tolist()
+x=arrList[0][0]
 # create an index for each tick position
 xi = list(range(len(x)))
-y = arr[0][5]
+y = arrList[0][5]
 #y = [0.945,0.885,0.893,0.9,0.996,1.25,1.19]
 #plt.ylim(0.8,1.4)
 # plot the index for the x-values
