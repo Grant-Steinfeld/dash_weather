@@ -17,13 +17,13 @@ jobs:
       - name: Run the scripts
         shell: pwsh
         run: |
-          # sudo pip install matplotlib
-          # sudo pip install pandas
+          sudo pip install matplotlib
+          sudo pip install pandas
 
-          # python CreateGraph.py
-          # python try.py
+          #python CreateGraph.py
+          python try2.py
 
-          .\ThePoshWay.ps1
+          #.\ThePoshWay.ps1
        - name: Commit changes
         uses: EndBug/add-and-commit@v4 
         with:
