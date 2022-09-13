@@ -8,7 +8,7 @@ echo $Msg
 pwd
 pushd /home/pi/dev/dash_weather/data_cap
 pwd
-git add basement_bme688.csv
+git add interior_bme688.csv
 git commit -m "$Msg"
 
 #git pull origin master

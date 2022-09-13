@@ -6,7 +6,6 @@ name: Custom PowerShell Automation - Linux
 
 on:
   push:
-  workflow_dispatch:
 
 jobs:
   build:
@@ -25,9 +24,12 @@ jobs:
           # python try.py
 
           .\ThePoshWay.ps1
-          
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4.2.0
+       - name: Commit changes
+        uses: EndBug/add-and-commit@v4 
         with:
-          commit_message: Check in results
-          commit_user_name: 'PowerShell Automation'
+          author_name: Grant Steinfeld
+          author_email: grant.steinfeld.tech@gmail.com
+          message: "Auto updating my dash"
+          add: "*.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_WEATHER_DASH }} 
