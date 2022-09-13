@@ -1,0 +1,20 @@
+study_bme_1.csv cron pushed csv off the NYC pi at Tue 13 Sep 2022 12:00:01 AM EDT
+/home/pi
+~/dev/ZippyMeetsMatplot/data_cap ~
+/home/pi/dev/ZippyMeetsMatplot/data_cap
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	basement_bme_1.csv
+	cron_run.log
+
+nothing added to commit but untracked files present
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Pushed!
+~
+/home/pi
