@@ -13,13 +13,13 @@ plt.subplot(221)
 plt.plot(df[['temp']])
 
 plt.subplot(222)
-plt.plot(df[['humidity']])
+plt.plot(df[['pressure']])
 
 plt.subplot(223)
-plt.plot(df[['gas']])
+plt.plot(df[['humidity']])
 
 plt.subplot(224)
-plt.plot(df[['pressure']])
+plt.plot(df[['gas']])
 
 
 plt.savefig("data2.png", format="png")
