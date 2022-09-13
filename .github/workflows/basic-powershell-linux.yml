@@ -24,7 +24,7 @@ jobs:
           python try2.py
 
           #.\ThePoshWay.ps1
-       - name: Commit changes
+      - name: Commit changes
         uses: EndBug/add-and-commit@v4 
         with:
           author_name: Grant Steinfeld
@@ -32,4 +32,4 @@ jobs:
           message: "Auto updating my dash"
           add: "*.md"
         env:
-                GITHUB_TOKEN: ${{ weather.secrets.GH_WEATHER_DASH }} 
+         GITHUB_TOKEN: ${{secrets.GH_WEATHER_DASH2 }} 
