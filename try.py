@@ -3,8 +3,9 @@ import pandas as pd
 import datetime
 
 
-header=["humidity","temp","gas","pressure","timestamp"]
-df = pd.read_csv('data_cap/study_bme_1.csv', names=header)
+header=["temp","pressure","humidity","gas","altitude"]
+df = pd.read_csv('data_cap/interior_bme688.csv', names=header)
+
 
 date = str(datetime.datetime.now())
 plt.figure(figsize=(9, 3))

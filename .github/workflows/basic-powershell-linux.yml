@@ -20,8 +20,8 @@ jobs:
           sudo pip install matplotlib
           sudo pip install pandas
 
-          #python CreateGraph.py
-          python try2.py
+          python CreateGraph.py
+          python try.py
 
           #.\ThePoshWay.ps1
       - name: Commit changes
