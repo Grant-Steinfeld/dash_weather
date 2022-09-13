@@ -18,11 +18,11 @@ jobs:
       - name: Run the scripts
         shell: pwsh
         run: |
-          # sudo pip install matplotlib
-          # sudo pip install pandas
+          sudo pip install matplotlib
+          sudo pip install pandas
 
           # python CreateGraph.py
-          # python try.py
+          python try.py
 
           .\ThePoshWay.ps1
           
