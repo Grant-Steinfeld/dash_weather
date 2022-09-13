@@ -11,19 +11,18 @@ plt.suptitle('run on: ' + date)
 
 plt.subplot(221)
 
-plt.plot(df[['temp']])
-plt.plot(df[['timestamp']])
+plt.plot(df[['temp']], df[['timestamp']])
 
 plt.subplot(222)
-plt.plot(df[['pressure']])
+plt.plot(df[['pressure']], df[['timestamp']])
 
 
 plt.subplot(223)
-plt.plot(df[['humidity']])
+plt.plot(df[['humidity']], df[['timestamp']])
 
 
 plt.subplot(224)
-plt.plot(df[['gas']])
+plt.plot(df[['gas']], df[['timestamp']])
 
 
 
