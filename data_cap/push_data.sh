@@ -1,14 +1,14 @@
 #!/bin/bash
 
 export TheDate=`date`
-export Msg="study_bme_1.csv cron pushed csv off the NYC pi at $TheDate"
+export Msg="cron pushed csvs off the NYC pi at $TheDate"
 echo $Msg
 
 #cron runs this periodically
 pwd
-pushd /home/pi/dev/ZippyMeetsMatplot/data_cap
+pushd /home/pi/dev/dash_weather/data_cap
 pwd
-git add study_bme_1.csv
+git add basement_bme688.csv
 git commit -m "$Msg"
 
 #git pull origin master
