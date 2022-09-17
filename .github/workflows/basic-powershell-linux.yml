@@ -23,7 +23,8 @@ jobs:
           #python CreateGraph.py
           #python try.py
           #python try2.py
-          python try3.py
+          python tryGrove.py
+          python tryGrove2.py
 
 
           #.\ThePoshWay.ps1
